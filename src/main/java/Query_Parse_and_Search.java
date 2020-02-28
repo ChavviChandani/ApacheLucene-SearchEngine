@@ -119,7 +119,7 @@ public class Query_Parse_and_Search
         // parse the query with the parser (qp)
         Query query = qp.parse(search);
         //Collect enough docs to show
-        TopDocs hits = searcher.search(query, 30);
+        TopDocs hits = searcher.search(query, 50);
         return hits;
     }
 
