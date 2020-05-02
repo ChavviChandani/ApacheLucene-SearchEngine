@@ -2,9 +2,11 @@
 
 First run the Doc_Parse_and_Index file.
 
-This will create index files under `src/main/resources/cran/index`.
+This will create index files under `src/main/resources/cran/`.
 
 Run Query_Parse_and_Search to parse queries and search them in the index created.
+
+Results file will be created under `src/main/resources/cran/cran_results.txt`
 
 Check the Accuracy of your search using Trec_eval :
 1. Download the Trec_eval file from the internet.
